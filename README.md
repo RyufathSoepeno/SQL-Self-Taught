@@ -14,3 +14,8 @@ Tip: Dependencies in SQL mean one entity or query cannot work without ahving the
 B is Dependent on A
 
 If A does not exist, B cannot work
+
+Data Integrity: How complete a data is, does it need updates, etc?
+
+
+
