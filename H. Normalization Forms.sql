@@ -121,8 +121,10 @@ department_id → department_id
 Functional and non-functional dependencies are concepts often used in the context of database design and data modeling. Let me explain these terms in simple, layman's terms:
 
 **Functional Dependency:**
-Think of functional dependency like a cause-and-effect relationship. In a database, it means that the value of one attribute (or column) uniquely determines the value of another attribute. 
-If you know the value of A, you can always figure out the value of B. For example, in a database of students, the student's ID (A) could uniquely determine their name (B).
+Think of functional dependency like a cause-and-effect relationship. 
+In a database, it means that the value of one attribute (or column) uniquely determines the value of another attribute. 
+If you know the value of A, you can always figure out the value of B. 
+For example, in a database of students, the student's ID (A) could uniquely determine their name (B).
 
 **Non-Functional Dependency:**
 Non-functional dependency is the opposite. It means there isn't a clear cause-and-effect relationship between two attributes. 
