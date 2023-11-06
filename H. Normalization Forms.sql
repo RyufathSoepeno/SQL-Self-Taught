@@ -116,3 +116,17 @@ On the other hand, the following functional dependencies would be considered tri
 employee_id → employee_id
 department_id → department_id
 */
+
+/** 
+Functional and non-functional dependencies are concepts often used in the context of database design and data modeling. Let me explain these terms in simple, layman's terms:
+
+**Functional Dependency:**
+Think of functional dependency like a cause-and-effect relationship. In a database, it means that the value of one attribute (or column) uniquely determines the value of another attribute. 
+If you know the value of A, you can always figure out the value of B. For example, in a database of students, the student's ID (A) could uniquely determine their name (B).
+
+**Non-Functional Dependency:**
+Non-functional dependency is the opposite. It means there isn't a clear cause-and-effect relationship between two attributes. 
+Knowing the value of A doesn't necessarily allow you to determine the value of B. In the same student database, if you know the student's name (A), 
+it doesn't necessarily tell you their ID (B), because many students might have the same name.
+
+So, in a nutshell, functional dependency is about one attribute directly influencing another, while non-functional dependency is when there's no direct relationship between attributes. Understanding these dependencies helps in designing databases that are organized, accurate, and efficient.
